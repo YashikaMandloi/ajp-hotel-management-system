@@ -13,9 +13,14 @@
 <!--  Enable Hibernate automatic session context management  -->
 <property name="hibernate.current_session_context_class">thread</property>
 <!--  Specify the package to scan for entity classes  -->
-<mapping class="org.example.model.Room"/>
-<mapping class="org.example.model.Guest"/>
-<mapping class="org.example.model.Invoice"/>
-<mapping class="org.example.model.Reservation"/>
+<mapping class="org.example.ajp.HotelmanagementSSystem"/>
+<mapping class="org.example.ajp.AddRoom"/>
+<mapping class="org.example.ajp.Department"/>
+<mapping class="org.example.ajp.Dashboard"/>
+<mapping class="org.example.ajp.Room"/>
+<mapping class="org.example.ajp.Reception"/>
+<mapping class="org.example.ajp.SearchRoom"/>
+<mapping class="org.example.ajp.UpdateCheck"/>
+<mapping class="org.example.ajp.UpdateRoom"/>
 </session-factory>
 </hibernate-configuration>
